@@ -1,0 +1,219 @@
+#page-container {
+    header {
+        padding: 24px;
+        background: #f8f8f8;
+
+        .content-logo {
+            max-width: 993px;
+            margin: 0 auto 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            > img {
+                max-height: 45px;
+            }
+        }
+
+        .opcoesCompra {
+            flex:1;
+            display: flex;
+            > img {
+                max-height: 35px;
+            }
+        }
+
+        .venderCarro {
+            flex:2;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .contentCarros {
+            margin: 0 30px 0 10px;
+            align-items: center;         
+        }
+
+        .contentMotos {
+            margin: 0 30px 0 10px;
+            align-items: center;
+        }
+
+        .header-options {
+            max-width: 993px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+    }
+
+    main {
+        max-width: 993px;
+        max-height: 312px;
+        margin: 0 auto;
+        background: #fff;
+
+        .room-title {
+            margin: 32px 0 24px;
+            display: flex;
+            align-items: center;
+
+            h1 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 24px;
+                color: #29292e;
+            }
+
+            span {
+                margin-left: 16px;
+                background: #e559f9;
+                border-radius: 9999px;
+                padding: 8px 16px;
+                color: #fff;
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+
+        form {
+            padding: 30px 50px;
+
+            input {
+               width: 100%;
+               border: 1;
+               border-color: #737388;
+               padding: 16px; 
+               border-radius: 4px;
+               background: #fefefe;
+            }
+
+            select {
+               width: 100%;
+               border: 1;
+               border-color: #737388;
+               padding: 16px; 
+               border-radius: 4px;
+               background: #fefefe;
+            }
+
+            .inputOnde {
+                border-radius: 4px 0px 0px 4px;
+                flex: 3;
+            }
+            .inputRaio {
+                border-radius: 0 4px 4px 0;
+                flex: 1;
+            }
+
+            .inputMarca {
+                margin-left: 10px;
+                flex: 2
+            }
+
+            .inputModelo {
+                margin-left: 10px;
+                flex: 2
+            }
+
+            .line-one {
+                max-width: 993px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .line-two {
+                max-width: 993px;
+                margin: 20px auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }            
+
+            .inputDownOne {
+                flex: 1;
+            }
+
+            .inputDownTwo {
+                flex: 1;
+                margin-left: 10px;
+            }
+
+            .inputDownThree {
+                flex: 2;
+                margin-left: 10px;
+            }
+
+            .footerOne {
+                flex: 4;
+            }
+
+            .footerTwo {
+                flex: 1;
+            }
+
+            .footerThree {
+                flex: 3;
+            }
+
+            .form-footer {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               margin-top: 16px;
+
+               .user-info {
+                   display: flex;
+                   align-items: center;
+
+                   img {
+                       width: 32px;
+                       height: 32px;
+                       border-radius: 50%;
+                   }
+
+                   span {
+                       margin-left: 8px;
+                       color: #29292e;
+                       font-weight: 500;
+                       font-size: 14px;
+                   }
+               }
+               
+               > span {
+                   font-size: 14px;
+                   color: #737388;
+                   font-weight: 500;
+
+                   button {
+                      background: transparent;
+                      border: 0;
+                      color: #835afd;
+                      text-decoration: underline;
+                      font-size: 14px;
+                      font-weight: 500;
+                      cursor: pointer; 
+                   }
+               }
+            }
+        }
+    }
+    .novos-usados {
+        max-width: 200px;
+        margin: 0 0 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .radioBox {
+        flex: 1;
+    }
+
+    .radioSpace {
+        flex: 3;
+    }
+}
